@@ -53,7 +53,7 @@ console.log(teacher3)
 printTeacher({ firstName: "John", lastName: "Doe" });
 
 
-class StudentClass implements StudentClassInterface{
+class StudentClass {
     firstName: string;
     lastName: string;
 
