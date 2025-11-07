@@ -37,7 +37,7 @@ class Teacher {
 }
 
 function createEmployee (salary: string | number) : Director | Teacher {
-    if(salary < 500){
+    if(typeof salary == 'number'  && salary < 500 ){
         return new Teacher();
     }
     else{
