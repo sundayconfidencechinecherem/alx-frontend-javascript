@@ -8,7 +8,7 @@ interface Teacher {
 
 }
 
-interface Directors extends Teacher {
+interface Director extends Teacher {
 numberOfReports: number;
 }
 
@@ -29,7 +29,7 @@ contract: false
 
 }
 
-const director1: Directors = {
+const director1: Director = {
     firstName: 'John',
     fullTimeEmployee: true,
     lastName: 'Doe',
